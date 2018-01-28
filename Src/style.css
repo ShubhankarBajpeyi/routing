@@ -55,9 +55,10 @@ a:hover { text-decoration: none }
 #pswd_info {
 	background: #dfdfdf none repeat scroll 0 0;
 	color: #fff;
-	left: 20px;
+    left: 206%;
 	position: absolute;
-	top: 115px;
+    top: 115px;
+    z-index: 10;
 }
 #pswd_info h4{
     background: black none repeat scroll 0 0;

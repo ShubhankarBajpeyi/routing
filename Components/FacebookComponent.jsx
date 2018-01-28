@@ -3,7 +3,7 @@ import * as fb from '../Src/fbLogin.js';
 class FacebookComponent extends React.Component {
     render() {
         return(
-            <div>
+            <div className="facebookcomponent">
             <div id="overlay"></div>
                     <div id="popup">
                         <div id="status"></div>

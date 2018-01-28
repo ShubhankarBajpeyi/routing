@@ -19,7 +19,7 @@ ReactDOM.render(
 <nav className="navbar navbar-default" id = 'navigationbar'>
 <Navbar />
 </nav>
-<Switch> 
+
     <div className='container'>
     <Route exact path="/" component={Layout}> </Route>
     <Route exact path="/web" component={Web}> </Route>
@@ -28,7 +28,7 @@ ReactDOM.render(
     <Route exact path="/page2" component={Page2}> </Route>
     <Route exact path="/page3" component={Page3}> </Route>
     </div>
-</Switch>
+
 </div>
 </BrowserRouter>,
 app);
